@@ -1,3 +1,4 @@
+#!/bin/bash
 rm -rf .repo/local_manifests
 repo init -u https://github.com/AOSPA/manifest -b uvite --depth=1
 /opt/crave/resync.sh
